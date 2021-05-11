@@ -48,7 +48,7 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 40px;
 }
@@ -100,7 +100,7 @@
 
 .navbartwo ul {
     display: flex;
-    max-width: 1100px;
+    max-width: 1300px;
     align-items: center;
     margin: auto;
     height: 80%;  
@@ -111,3 +111,44 @@
     padding: 0 30px;
     font-size: 30px
 }
+
+.footer {
+    background-color: #333;
+    color: floralwhite;
+    height: 350px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 1300px;
+}
+
+.footer .navigation {
+    padding-left: 150px;
+}
+
+.navigation a {
+    color: floralwhite;
+}
+
+.footer .socials {
+    padding-left: 150px;
+}
+
+.footer .socials li {
+    font-size: 40px;
+}
+
+.copyright {
+    background-color: #333;
+}
+
+.containertwo {
+    max-width: 1300px;
+    margin: auto;
+    color: floralwhite;
+    padding-bottom: 50px;
+}
+
