@@ -93,12 +93,12 @@
 }
 
 
-.navbartwo {
+.menu {
     background-color: #333;
     height: 80px;
 }
 
-.navbartwo ul {
+.menu ul {
     display: flex;
     max-width: 1300px;
     align-items: center;
@@ -106,7 +106,15 @@
     height: 80%;  
 }
 
-.navbartwo a {
+.menu li {
+    padding: 0 50px;
+}
+
+.menu .current {
+    background-color: orange;
+}
+
+.menu a {
     color: floralwhite;
     padding: 0 30px;
     font-size: 30px
@@ -152,3 +160,6 @@
     padding-bottom: 50px;
 }
 
+.video {
+    width: 20%;
+}

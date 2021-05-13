@@ -22,7 +22,7 @@ function listPosts(posts){
         postHTML.innerHTML += `
         <a href="post.html?id=${post.id}">
         ${post.title.rendered}</a>
-        ${post.content.rendered}       
+       <div class="video" ${post.content.rendered} </div>     
         </li>
         `;
     })
