@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     color: #333;
     line-height: 1.6;
   }
@@ -40,12 +40,12 @@
 
 .navbar {
     background-color: #333;
-    height: 60px;
+    height: 35px;
 }
 
 .navbar p {
     color: floralwhite;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .container {
@@ -65,7 +65,7 @@
 
 .navbar li {
     padding: 0 20px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 
@@ -115,7 +115,7 @@
 
 .menu a {
     color: floralwhite;
-    padding: 0 30px;
+    padding: 15px 50px;
     font-size: 25px;
 }
 
@@ -133,46 +133,49 @@
     padding-top: 30px;
 }
 
-.footer .navigation {
-    padding-left: 100px;
+.footer a {
+    color: floralwhite;
+    border-bottom: solid gray;
+    border-width: 1px;
 }
 
-.navigation a {
-    color: floralwhite;
+.footer .about p {
+    font-weight: 100;
+}
+
+.footer .navigation {
+    padding-left: 100px;
 }
 
 .footer .socials {
     padding-left: 100px;
 }
 
-.footer .socials li {
-    font-size: 40px;
-}
-
 .footer h2 {
     background-color: darkorange;
-    border-bottom: solid darkorange;
-    border-width: 2px;
     margin-bottom: 10px;
+    text-align: center;
+    
 }
 
 .about h2 {
     max-width: 90px;
-    padding-left: 10px;
 }
 
 .navigation h2 {
       max-width: 140px;
-      padding-left: 10px;
 }
 
 .socials h2 {
     max-width: 100px;
-    padding-left: 10px;
 }
 
 .copyright {
     background-color: #333;
+}
+
+.copyright h3 {
+    font-weight: 100;
 }
 
 .containertwo {
@@ -185,3 +188,4 @@
 .video {
     width: 20%;
 }
+
