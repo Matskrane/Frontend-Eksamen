@@ -26,6 +26,7 @@
     margin: 10px 0;
   }
   
+
   p {
     margin: 10px 0;
   }
@@ -48,9 +49,8 @@
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 0 40px;
 }
 .navbar .flex {
     display: flex;
@@ -95,29 +95,28 @@
 
 .menu {
     background-color: #333;
-    height: 80px;
+    height: 50px;
 }
 
 .menu ul {
     display: flex;
-    max-width: 1300px;
+    max-width: 1100px;
     align-items: center;
-    margin: auto;
-    height: 80%;  
+    margin: auto;  
 }
 
 .menu li {
-    padding: 0 50px;
+    text-transform: uppercase;
 }
 
 .menu .current {
-    background-color: orange;
+    background-color: darkorange;
 }
 
 .menu a {
     color: floralwhite;
     padding: 0 30px;
-    font-size: 30px
+    font-size: 25px;
 }
 
 .footer {
@@ -130,11 +129,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    max-width: 1300px;
+    max-width: 1100px;
+    padding-top: 30px;
 }
 
 .footer .navigation {
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
 .navigation a {
@@ -142,11 +142,33 @@
 }
 
 .footer .socials {
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
 .footer .socials li {
     font-size: 40px;
+}
+
+.footer h2 {
+    background-color: darkorange;
+    border-bottom: solid darkorange;
+    border-width: 2px;
+    margin-bottom: 10px;
+}
+
+.about h2 {
+    max-width: 90px;
+    padding-left: 10px;
+}
+
+.navigation h2 {
+      max-width: 140px;
+      padding-left: 10px;
+}
+
+.socials h2 {
+    max-width: 100px;
+    padding-left: 10px;
 }
 
 .copyright {
@@ -154,7 +176,7 @@
 }
 
 .containertwo {
-    max-width: 1300px;
+    max-width: 1100px;
     margin: auto;
     color: floralwhite;
     padding-bottom: 50px;
