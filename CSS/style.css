@@ -38,6 +38,8 @@
   }
   
 
+  /* top area and image */
+
 .navbar {
     background-color: #333;
     height: 35px;
@@ -92,6 +94,7 @@
     background-color: #333;
 }
 
+/* Navigation/Menu */
 
 .menu {
     background-color: #333;
@@ -119,6 +122,8 @@
     font-size: 25px;
 }
 
+/* Footer */
+
 .footer {
     background-color: #333;
     color: floralwhite;
@@ -135,6 +140,7 @@
 
 .footer a {
     color: floralwhite;
+    font-size: 20px;
 }
 
 .footer li {
@@ -146,6 +152,7 @@
 .footer .about p {
     font-weight: 100;
     line-height: 1.6;
+    font-size: 17px;
 }
 
 .footer .navigation {
@@ -160,13 +167,16 @@
     background-color: darkorange;
     margin-bottom: 10px;
     text-align: center;
-    padding: 0 10px; 
+    padding: 0 10px;
+    font-size: 30px; 
 }
 
 .footer h2 {
     border-bottom: solid darkorange;
     border-width: 2px;
 }
+
+/* Copyright */
 
 .copyright {
     background-color: #333;
@@ -183,6 +193,8 @@
     color: floralwhite;
     padding-bottom: 50px;
 }
+
+/* Video/Posts */
 
 .video {
    max-width: 1100px;
@@ -202,3 +214,20 @@
     background: #0e0e0e;
 }
 
+iframe {
+    width: 50%;
+    height: 400px;
+}
+
+/* Contact Form */
+
+.contact {
+    height: 600px;
+}
+
+.contact-form {
+    max-width: 1100px;
+    align-content: center;
+    margin: auto;
+    padding-top: 50px;
+}
