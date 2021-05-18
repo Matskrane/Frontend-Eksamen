@@ -21,7 +21,7 @@ function listPosts(posts){
     posts.forEach(function(post){
         postHTML.innerHTML += `
         
-        <div class="video"
+        <div class="video">
         <a href="specificpost.html?id=${post.id}">
         <h3> ${post.title.rendered}</h3>
         </a>
