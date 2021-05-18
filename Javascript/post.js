@@ -2,7 +2,7 @@ const queryString = window.location.search;
 const id = new URLSearchParams(queryString).get('id');
 
 
-const url = `https://www.matskrane.no/wp-json/wc/store/products/${id}`;
+const url = `https://www.matskrane.no/wp-json/wp/v2/posts/${id}`;
 fetch(url)
 .then(response => response.json())
 .then(data => {
@@ -19,11 +19,10 @@ function displayProduct (data) {
     console.log(data);
           
      let html = `
-     
-        <h1>${data.name}</h1>
-        <img src="${data.images[0].src}" alt="${data.name}">
-        <p>${data.price_html}</p>       
-         
+     <h2> ${data.title.rendered} </h2> 
+     <div class="video" ${data.content.rendered} </div>
+          
+      
         `;
 
         output.innerHTML = html;

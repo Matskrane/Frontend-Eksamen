@@ -20,10 +20,14 @@ getPosts();
 function listPosts(posts){
     posts.forEach(function(post){
         postHTML.innerHTML += `
-        <a href="post.html?id=${post.id}">
-        ${post.title.rendered}</a>
-       <div class="video" ${post.content.rendered} </div>     
-        </li>
+        
+        <div class="video"
+        <a href="specificpost.html?id=${post.id}">
+        <h3> ${post.title.rendered}</h3>
+        </a>
+        ${post.content.rendered}      
+        </div
+
         `;
     })
 

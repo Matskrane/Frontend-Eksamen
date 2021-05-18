@@ -130,17 +130,22 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     max-width: 1100px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .footer a {
     color: floralwhite;
-    border-bottom: solid gray;
-    border-width: 1px;
+}
+
+.footer li {
+    border-bottom: solid #444444;
+    border-width: 2px;
+    margin: 5px 0;
 }
 
 .footer .about p {
     font-weight: 100;
+    line-height: 1.6;
 }
 
 .footer .navigation {
@@ -151,23 +156,16 @@
     padding-left: 100px;
 }
 
-.footer h2 {
+.footer span {
     background-color: darkorange;
     margin-bottom: 10px;
     text-align: center;
-    
+    padding: 0 10px; 
 }
 
-.about h2 {
-    max-width: 90px;
-}
-
-.navigation h2 {
-      max-width: 140px;
-}
-
-.socials h2 {
-    max-width: 100px;
+.footer h2 {
+    border-bottom: solid darkorange;
+    border-width: 2px;
 }
 
 .copyright {
@@ -176,6 +174,7 @@
 
 .copyright h3 {
     font-weight: 100;
+    font-size: 15px;
 }
 
 .containertwo {
@@ -186,6 +185,12 @@
 }
 
 .video {
-    width: 20%;
+   max-width: 1100px;
+   align-content: center;
+   margin: auto;
+}
+
+.posts {
+    background: #0e0e0e;
 }
 
