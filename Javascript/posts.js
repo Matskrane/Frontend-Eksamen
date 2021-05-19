@@ -15,6 +15,7 @@ async function getPosts() {
     
 }
 
+
 getPosts();
 
 function listPosts(posts){
