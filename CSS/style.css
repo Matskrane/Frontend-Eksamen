@@ -228,13 +228,14 @@ iframe {
   }
 
   .contact-section h1 {
+    font-size: 40px;
     text-align: center;  
     color: #ddd;
     margin: auto;
   }
 
   .border {
-    width: 150px;
+    width: 200px;
     height: 10px;
     background: #E89F00;
     margin: 15px auto;
@@ -250,6 +251,7 @@ iframe {
   }
   
   .contact-form-text {
+    font-size: 18px;
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -269,17 +271,19 @@ iframe {
   textarea.contact-form-text {
     resize: none;
     height: 120px;
+    font-size: 18px;
   }
 
   .contact-form-btn {
     float: right;
     border: 0;
-    background: #34495e;
+    background: #1bb2e9;
     color: #fff;
     padding: 12px 50px;
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 18px;
   }
 
   .contact-form-btn:hover {
