@@ -237,15 +237,14 @@ iframe {
   .border {
     width: 200px;
     height: 10px;
-    background: #E89F00;
+    background: #444444;
     margin: 15px auto;
   }
   
   .contact-form {
+    width: 600px;  
     align-content: center;
-    max-width: 1100px;
     margin: auto;
-    width: 600px;
     padding: 0 10px;
     overflow: hidden;
   }
@@ -277,7 +276,7 @@ iframe {
   .contact-form-btn {
     float: right;
     border: 0;
-    background: #1bb2e9;
+    background: #E89F00;
     color: #fff;
     padding: 12px 50px;
     border-radius: 20px;
@@ -287,7 +286,7 @@ iframe {
   }
 
   .contact-form-btn:hover {
-    background: #E89F00;
+    background: #1bb2e9;
   }
 
 
