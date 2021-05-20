@@ -41,7 +41,7 @@
   /* top area and image */
 
 .navbar {
-    background-color: #333;
+    background-color: #332E2B;
     height: 35px;
 }
 
@@ -91,13 +91,13 @@
 .header-image {
     width: 100%;
     margin-bottom: 0;
-    background-color: #333;
+    background-color: #332E2B;
 }
 
 /* Navigation/Menu */
 
 .menu {
-    background-color: #333;
+    background-color: #332E2B;
     height: 50px;
 }
 
@@ -125,7 +125,7 @@
 /* Footer */
 
 .footer {
-    background-color: #333;
+    background-color: #332E2B;
     color: floralwhite;
     height: 350px;
 }
@@ -179,7 +179,7 @@
 /* Copyright */
 
 .copyright {
-    background-color: #333;
+    background-color: #332E2B;
 }
 
 .copyright h3 {
@@ -208,6 +208,9 @@
     font-weight: 100;
     margin-bottom: 20px;
     font-size: 30px;
+    border-bottom: solid #444444;
+    border-width: 3px;
+    max-width: 550px;
 }
 
 .posts {
@@ -256,7 +259,7 @@ iframe {
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
-    background: #111;
+    background: #332E2B;
     padding: 20px 40px;
     outline: none;
     color: #ddd;
@@ -288,5 +291,38 @@ iframe {
   .contact-form-btn:hover {
     background: #1bb2e9;
   }
+
+
+  /* About me */
+
+section {
+    height: 800px;
+    background-color: #0e0e0e;
+}
+
+section img {
+    width: 15%;
+    height: 300px;
+    position: relative;
+}
+
+section h1 {
+    font-size: 40px;
+    
+}
+
+section p {
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.container-about {
+    padding-top: 100px;
+    text-align: center;
+    color: floralwhite;
+
+}
+  
 
 
