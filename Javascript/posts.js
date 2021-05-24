@@ -23,11 +23,13 @@ function listPosts(posts){
         postHTML.innerHTML += `
         
         <div class="video">
+        <div class="background-card">
         <a href="specificpost.html?id=${post.id}">
-        <h3> ${post.title.rendered}</h3>
+        <h3>${post.title.rendered}</h3>
         </a>
-        ${post.content.rendered}      
-        </div
+        ${post.content.rendered}
+        </div>      
+        </div>
 
         `;
     })

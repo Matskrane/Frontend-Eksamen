@@ -200,25 +200,39 @@
    max-width: 1100px;
    align-content: center;
    margin: auto;
-   padding-top: 50px;
+   margin-bottom: 50px;
+   color: floralwhite;
+}
+
+.background-card {
+    background-color: #332E2B;
+    width: 650px;
+    padding-left: 50px;
+}
+
+.video p {
+    padding-bottom: 15px;
 }
 
 .posts h3 {
     color: floralwhite;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 30px;
     border-bottom: solid #444444;
     border-width: 3px;
     max-width: 550px;
+    padding-top: 15px;
 }
 
 .posts {
     background: #0e0e0e;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 iframe {
-    width: 50%;
+    width: 90%;
     height: 400px;
 }
 
