@@ -214,7 +214,7 @@
   .border {
     width: 200px;
     height: 10px;
-    background: #444444;
+    background: #211E1F;
     margin: 15px auto;
   }
   
@@ -233,7 +233,7 @@
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
-    background: #332E2B;
+    background: #141313;
     padding: 20px 40px;
     outline: none;
     color: #ddd;
@@ -297,6 +297,26 @@ section p {
     color: floralwhite;
 
 }
+
+
+/* Welcome area */
+
+.welcome-area {
+    background-color: #0e0e0e;
+}
+
+.welcome-text {
+    max-width: 1100px;
+    padding: 50px 0;
+    margin: auto;
+    color: floralwhite;
+}
+
+.welcome-text p {
+    width: 450px;
+}
+
+/* Posts and Twitter  */
   
 .main-content {
     background: #0e0e0e;
@@ -308,7 +328,7 @@ section p {
     align-content: center;
     margin: auto;
     max-width: 1100px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 200px;
 }
 
@@ -316,25 +336,27 @@ section p {
   float: right;
   width: 270px;
   margin-left: 170px;
+  max-height: 1500px;
+  overflow: scroll;
 }
 
 .video {
     margin-bottom: 50px;
     color: floralwhite;
     float: left;
- }
+}
  
- .background-card {
-     background-color: #332E2B;
+.background-card {
+     background-color: #141313;
      width: 650px;
      padding-left: 50px;
- }
+}
  
- .video p {
+.video p {
      padding-bottom: 15px;
- }
+}
  
- .posts h3 {
+.posts h3 {
      color: floralwhite;
      font-weight: 100;
      margin-bottom: 15px;
@@ -343,11 +365,11 @@ section p {
      border-width: 3px;
      max-width: 550px;
      padding-top: 15px;
- }
+}
  
  iframe {
      width: 90%;
      height: 400px;
- }
+}
 
 
