@@ -28,6 +28,7 @@ function listPosts(posts){
         <h3>${post.title.rendered}</h3>
         </a>
         ${post.content.rendered}
+        <a href="specificpost.html">Click me</a>
         </div>      
         </div>
 
