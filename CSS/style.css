@@ -343,7 +343,6 @@ section p {
 .video {
     margin-bottom: 50px;
     color: floralwhite;
-    float: left;
 }
  
 .background-card {
@@ -355,6 +354,16 @@ section p {
 .video p {
      padding-bottom: 15px;
 }
+
+.video .button {
+    background-color: darkorange;
+    border: solid #0e0e0e;
+    color: floralwhite;
+    padding: 6px 20px;
+    font-size: 22px;
+}
+
+
  
 .posts h3 {
      color: floralwhite;
@@ -372,4 +381,13 @@ section p {
      height: 400px;
 }
 
+
+.post-area .posts {
+    max-width: 1500px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+}
 
