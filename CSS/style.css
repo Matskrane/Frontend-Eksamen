@@ -478,18 +478,26 @@ section p {
 @media (max-width:700px) {
 
     .footer .navigation {
-        padding-left: 20px;
+        padding: 0 30px;
     }
     .footer .socials {
         display: none;
     }
 
-    .footer .about p {
-        font-size: 12px;
+    .footer .about {
+        padding-left: 30px;
+    }
+
+    .footer {
+        height: auto;
     }
 
     .footer .grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .containertwo {
+        padding: 30px 30px;
     }
 
     .background-card {
