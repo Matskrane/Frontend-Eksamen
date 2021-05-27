@@ -458,7 +458,7 @@ section p {
     }
 
     .welcome-text {
-        padding-left: 15px;
+        padding-left: 30px;
     }
 }
 
@@ -494,7 +494,7 @@ section p {
 
     .background-card {
         width: auto;
-        padding-left: 15px;
+        padding-left: 30px;
     }
 
     iframe {
