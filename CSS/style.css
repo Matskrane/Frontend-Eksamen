@@ -508,13 +508,13 @@ section p {
 
     .menu ul {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: auto;
         gap: 20px;
     }
 
     .welcome-text p {
-        width: 250px;
+        width: 50%;
     }
 
     .menu {
