@@ -333,11 +333,11 @@ section p {
 }
 
 .twitter-feed {  
-  float: right;
-  width: 270px;
-  margin-left: 170px;
-  max-height: 1500px;
-  overflow: scroll;
+    float: right;
+    width: 270px;
+    margin-left: 170px;
+    max-height: 1500px;
+    overflow: scroll;
 }
 
 .video {
@@ -346,18 +346,18 @@ section p {
 }
  
 .background-card {
-     background-color: #141313;
-     width: 650px;
-     padding-left: 50px;
+    background-color: #141313;
+    width: 650px;
+    padding-left: 60px;
+    margin: auto;
 }
  
 .video p {
-     padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .video .button {
     background-color: darkorange;
-    border: solid #0e0e0e;
     color: floralwhite;
     padding: 6px 20px;
     font-size: 22px;
@@ -391,3 +391,61 @@ section p {
     justify-content: space-between;
 }
 
+
+.button-area {
+    background-color: #0e0e0e;
+    margin: auto;
+    text-align: center;
+}
+
+.viewmore {
+    font-size: 40px;
+    color: floralwhite;
+    background-color: #E89F00;
+    margin: 40px 0;
+}
+
+.header {
+    font-size: 22px;
+    padding-top: 40px;
+    background-color: #0e0e0e;
+    text-align: center;
+    height: 150px; 
+}
+
+.header h1 {
+    border-bottom: solid #444444;
+    border-width: 3px;
+    color: floralwhite;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.specificpost {
+    background-color: #0e0e0e;
+    height: 700px;
+    padding-top: 10px;
+}
+
+.specific-video  {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.background-video h2 {
+    font-size: 40px;
+    color: floralwhite;
+    font-weight: 100;
+    margin-bottom: 15px;
+    border-bottom: solid #444444;
+    border-width: 3px;
+    max-width: 550px;
+    padding-top: 15px;
+}
+
+.background-video {
+    background-color: #141313;
+    width: 800px;
+}

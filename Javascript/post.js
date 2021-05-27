@@ -14,16 +14,21 @@ displayProduct(data);
   console.log(error)
 });
 
-const output = document.querySelector("#product");
+const output = document.querySelector("#post");
 function displayProduct (data) {
     console.log(data);
           
-     let html = `
-     <h2> ${data.title.rendered} </h2> 
-     <div class="video" ${data.content.rendered} </div>
+      let html = `
+
+        <div class="specific-video">
+        <div class="background-video">
+        <h2> ${data.title.rendered} </h2> 
+        <div class="video" ${data.content.rendered} </div>
+        </div>      
+        </div>
           
       
         `;
 
-        output.innerHTML = html;
+      output.innerHTML = html;
 }

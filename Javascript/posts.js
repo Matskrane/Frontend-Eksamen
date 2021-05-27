@@ -37,13 +37,15 @@ function listPosts(posts){
 
 }
 
+
 /* Next page or load more  */ 
 
-const loadMoreBtn = document.querySelector('button');
-let pageCounter = 1;
-let loadMoreUrl = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedia&page=${pageCounter}`;
+const ViewMoreBtn = document.querySelector('button');
 
-function displayMoreMedia(posts){
+let page = 1;
+let viewMore = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedia&page=${page}`;
+
+function viewMorePosts(posts){
     posts.forEach(function(post){
         postHTML.innerHTML += `
 
@@ -61,19 +63,16 @@ function displayMoreMedia(posts){
   })
 }
 
-const lastPage = () => {
-  loadMoreBtn.innerHTML = "Last page";
-  loadMoreBtn.disabled = true;
-};
 
 const loadPosts = () => {
-  pageCounter++;
-  loadMoreUrl = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedia&page=${pageCounter}`;
-  console.log(loadMoreUrl);
-  fetch(loadMoreUrl)
+  page++;
+  viewMore = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedia&page=${page}`;
+  console.log(viewMore);
+  fetch(viewMore)
     .then((response) => response.json())
-    .then((data) => displayMoreMedia(data))
-    .catch((error) => lastPage());
+    .then((data) => viewMorePosts(data))
+    .catch((error) => loadPosts());
+    console.log(error);
 };
 
-loadMoreBtn.addEventListener("click", loadPosts);
+ViewMoreBtn.addEventListener("click", loadPosts);
