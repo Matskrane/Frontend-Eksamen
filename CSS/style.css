@@ -391,6 +391,7 @@ section p {
     background-color: #0e0e0e;
     margin: auto;
     text-align: center;
+    margin-top: -50px;
 }
 
 .viewmore {
@@ -451,6 +452,13 @@ section p {
 }
 
 
+@media (max-width:1300px) {
+
+    .post-area .posts {
+        display: block;
+    }
+}
+
 @media (max-width:1100px) {
     .navbar p {
         padding-left: 15px
@@ -459,6 +467,7 @@ section p {
     .welcome-text {
         padding-left: 30px;
     }
+    
 }
 
 
@@ -522,10 +531,6 @@ section p {
         gap: 10px;
     }
 
-    .welcome-text p {
-        width: 80%;
-    }
-
     .menu {
         height: auto;
     }
@@ -540,6 +545,10 @@ section p {
 
     .menu .current {
         background-color: #332E2B;
+    }
+
+    .welcome-text p {
+        width: 80%;
     }
 
     .container-grid {
