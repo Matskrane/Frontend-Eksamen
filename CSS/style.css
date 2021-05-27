@@ -523,7 +523,7 @@ section p {
     }
 
     .welcome-text p {
-        width: 50%;
+        width: 80%;
     }
 
     .menu {
@@ -534,8 +534,16 @@ section p {
         padding: 7px 50px;
     }
 
+    .menu ul {
+        max-width: 300px;
+    }
+
     .menu .current {
         background-color: #332E2B;
+    }
+
+    .container-grid {
+        padding-top: 0;
     }
 
 }
