@@ -513,6 +513,10 @@ section p {
         gap: 20px;
     }
 
+    .welcome-text p {
+        width: 250px;
+    }
+
     .menu {
         height: auto;
     }
