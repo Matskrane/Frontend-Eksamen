@@ -494,6 +494,7 @@ section p {
 
     .background-card {
         width: auto;
+        padding-left: 15px;
     }
 
     iframe {
