@@ -324,8 +324,7 @@ section p {
 
 .container-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
     margin: auto;
     max-width: 1100px;
     padding-top: 50px;
@@ -333,11 +332,10 @@ section p {
 }
 
 .twitter-feed {  
-    float: right;
     width: 270px;
-    margin-left: 170px;
-    max-height: 1500px;
+    max-height: 700px;
     overflow: scroll;
+    margin: 0 auto;
 }
 
 .video {
@@ -387,8 +385,6 @@ section p {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
     display: grid;
-    align-items: center;
-    justify-content: space-between;
 }
 
 
@@ -448,4 +444,20 @@ section p {
 .background-video {
     background-color: #141313;
     width: 800px;
+}
+
+
+.posts{
+    margin: 0 auto;
+}
+
+
+/* Media Quieres */
+
+@media (max-width:950px) {
+
+.container-grid {
+    display: block;
+}
+    
 }
