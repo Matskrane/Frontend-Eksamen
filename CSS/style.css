@@ -506,13 +506,14 @@ section p {
     }
 
     iframe {
-        width: auto;
+        width: 90%;
         height: auto;
     }
 
     .background-card h3 {
         padding-right: 20px;
         width: auto;
+        padding-top: 0;
     }
 
     .menu ul {
@@ -544,6 +545,11 @@ section p {
 
     .container-grid {
         padding-top: 0;
+    }
+
+    .video {
+        width: 90%;
+        padding-left: 30px;
     }
 
 }
