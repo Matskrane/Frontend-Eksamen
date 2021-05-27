@@ -519,7 +519,7 @@ section p {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
-        gap: 20px;
+        gap: 10px;
     }
 
     .welcome-text p {
@@ -529,6 +529,15 @@ section p {
     .menu {
         height: auto;
     }
+
+    .menu a {
+        padding: 7px 50px;
+    }
+
+    .menu .current {
+        background-color: #332E2B;
+    }
+
 }
 
 @media (max-width:600px) {
