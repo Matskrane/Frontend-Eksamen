@@ -479,7 +479,11 @@ section p {
 
 
 /* Media Quieres */
-
+@media (min-width:700px) {
+    .nav-socials {
+        display: none;
+    }
+}
 
 @media (max-width:950px) {
 
