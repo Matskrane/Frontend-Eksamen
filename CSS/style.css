@@ -467,11 +467,11 @@ section p {
 
 @media (max-width:1100px) {
     .navbar p {
-        padding-left: 15px
+        padding-left: 60px
     }
 
     .welcome-text {
-        padding-left: 30px;
+        padding-left: 60px;
     }
     
 }
