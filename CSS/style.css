@@ -288,18 +288,19 @@ section p {
     max-width: 350px;
     margin: 20px auto;
     text-align: start;
+    padding: 0 15px;
 }
 
 .container-about {
     padding-top: 100px;
     text-align: center;
     color: floralwhite;
-
 }
 
 .about-img {
     max-width: 350px;
     margin: auto;
+    padding: 0 15px;
 }
 
 
@@ -480,13 +481,6 @@ section p {
 /* Media Quieres */
 
 
-@media (min-width:700px){
-
-    .copyright-socials {
-        display: none;
-    }
-}
-
 @media (max-width:950px) {
 
 .container-grid {
@@ -498,9 +492,13 @@ section p {
 
 @media (max-width:700px) {
 
-    .copyright {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .nav-socials a {
+        padding: 0 12px;
+        font-size: 30px;
+        border-bottom: solid #444444;
+    }
+    .nav-socials li {
+        border-bottom: none;
     }
     
     .footer .navigation {
