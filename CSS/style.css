@@ -492,6 +492,14 @@ section p {
 
 @media (max-width:700px) {
 
+    .navbar li {
+        padding: 0 10px;
+    }
+
+    .navbar p {
+        font-size: 12px;
+    }
+
     .nav-socials a {
         padding: 0 12px;
         font-size: 30px;
