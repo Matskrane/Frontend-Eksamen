@@ -332,20 +332,20 @@ section p {
   
 .main-content {
     background: #0e0e0e;
+    padding-bottom: 100px;
 }
 
-.container-grid {
+.posts-twitter {
+    max-width: 1100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
-    max-width: 1100px;
-    padding-top: 50px;
-    padding-bottom: 200px;
 }
+
 
 .twitter-feed {  
     width: 270px;
-    max-height: 700px;
+    max-height: 600px;
     overflow: scroll;
     margin: 0 auto;
 }
@@ -372,7 +372,6 @@ section p {
     padding: 6px 20px;
     font-size: 22px;
 }
-
 
  
 .posts h3 {
@@ -635,7 +634,6 @@ section p {
     
 }
 
-
 .status {
     color: floralwhite;
     text-align: center;
@@ -644,154 +642,40 @@ section p {
 
 
 
+/*  Carousel */
 
+.flex-sliders {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    background-color: black;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+.prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
+    color: darkorange;
     font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+    font-size: 50px;
+}
   
-  /* Position the "next button" to the right */
-  .next {
+.next {
     right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-
-  .carousel-slider ul, .carousel-slider p{
-    display: none;
+    margin-right: 60px;
 }
 
 
 .carousel-slide{
-    width: 100%;
     display: none;
 }
+
+.carousel-slide .video .background-card {
+    margin: 0;
+}
+
+.carousel-slider{
+    margin: auto;  
+}   
+  
 .carousel-slide:first-of-type{
     display: block;
 }
 
-.carousel-slider{
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-    
-}
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-    padding: 0 20px;
-    color: var(--var2);
-    font-weight: bold;
-    font-size: 3em;
-    display: block;
-
-    
-  }
-  .next{
-   right: 0;
-  }
-  
-  .text {
-    color: var(--var3);
-    font-size: 1.6em;
-    position: absolute;
-    bottom: 30%;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: luckiest guy;
-    letter-spacing: 2px;
-    width: 80%;
-    left: 10%;
-    background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 15px;
-    padding: 5px 0;
-    padding-top: 10px;
-  }

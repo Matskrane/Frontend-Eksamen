@@ -5,11 +5,11 @@ $(document).ready(function () {
     event.preventDefault()
     console.log('Clicked button')
 
-    var name = $('#name').val()
-    var email = $('#email').val()
-    var subject = $('#subject').val()
-    var message = $('#message').val()
-    var statusMessage = $('.status')
+    const name = $('#name').val()
+    const email = $('#email').val()
+    const subject = $('#subject').val()
+    const message = $('#message').val()
+    const statusMessage = $('.status')
     statusMessage.empty()
 
     if(name.length >= 5) {
