@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     color: #333;
     line-height: 1.6;
   }
@@ -107,9 +107,6 @@
     margin: auto;  
 }
 
-.menu li {
-    text-transform: uppercase;
-}
 
 .menu .current {
     background-color: darkorange;
@@ -331,6 +328,7 @@ section p {
 
 .welcome-text p {
     width: 450px;
+    font-weight: lighter;
 }
 
 /* Posts and Twitter  */
