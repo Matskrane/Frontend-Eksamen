@@ -15,7 +15,6 @@ async function getPosts() {
     
 }
 
-
 getPosts();
 
 function listPosts(posts){
@@ -36,6 +35,9 @@ function listPosts(posts){
     })
 
 }
+
+console.warn = () => {};
+
 
 
 /* Next page or load more  */ 

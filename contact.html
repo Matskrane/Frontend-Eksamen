@@ -9,17 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <!-- Hotjar Tracking Code for https://elegant-hoover-2a96ac.netlify.app/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2409069,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src="/Javascript/contactvalidator.js"></script>
+
 </head>
 <body>
 
@@ -71,12 +65,13 @@
 
     <h1>Contact Us</h1>
     <div class="border"></div>
-    <form class="contact-form" action="index.html" method="post">
-      <input type="text" class="contact-form-text" placeholder="Your name">
-      <input type="email" class="contact-form-text" placeholder="Your email">
-      <textarea class="contact-form-text" placeholder="Your message"></textarea>
-      <input type="submit" class="contact-form-btn" value="Send">
+    <form class="contact-form">
+      <input type="text" class="contact-form-text" id="name" placeholder="Your name">
+      <input  class="contact-form-text" id="email" placeholder="Your email">
+      <textarea class="contact-form-text" id="message" placeholder="Your message"></textarea>
+      <input type="submit" class="contact-form-btn" id="submit" value="Send">
     </form>
+    <div class="status"></div>
   </div>
 
 <!-- Footer -->
@@ -151,6 +146,6 @@
     </div>
 </div>
 
-<script src="/Javascript/posts.js"></script>
+
 </body>
 </html>
