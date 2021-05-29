@@ -1,5 +1,6 @@
 const queryString = window.location.search;
 const id = new URLSearchParams(queryString).get('id');
+if (!id) {window.location = "post.html";} 
 
 
 const url = `https://www.matskrane.no/wp-json/wp/v2/posts/${id}`;
@@ -17,6 +18,7 @@ displayProduct(data);
 const output = document.querySelector("#post");
 function displayProduct (data) {
     console.log(data);
+    const title = data.title.rendered;
           
       let html = `
 
@@ -31,4 +33,5 @@ function displayProduct (data) {
         `;
 
       output.innerHTML = html;
+      document.title = title;
 }

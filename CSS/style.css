@@ -201,31 +201,30 @@
     background: #0e0e0e;
     background-size: cover;
     padding: 150px 0;
-  }
+}
 
-  .contact-section h1 {
+.contact-section h1 {
     font-size: 40px;
     text-align: center;  
     color: #ddd;
     margin: auto;
-  }
+}
 
-  .border {
+.border {
     width: 200px;
     height: 10px;
     background: #211E1F;
     margin: 15px auto;
-  }
+}
   
-  .contact-form {
+.contact-form {
     max-width: 600px;  
-    align-content: center;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
-  }
+}
   
-  .contact-form-text {
+.contact-form-text {
     font-size: 18px;
     display: block;
     width: 100%;
@@ -237,19 +236,19 @@
     outline: none;
     color: #ddd;
     transition: 0.5s;
-  }
+}
 
-  .contact-form-text:focus {
+.contact-form-text:focus {
     box-shadow: 0 0 10px 4px #E89F00;
-  }
+}
 
-  textarea.contact-form-text {
+textarea.contact-form-text {
     resize: none;
     height: 120px;
     font-size: 18px;
-  }
+}
 
-  .contact-form-btn {
+.contact-form-btn {
     float: right;
     border: 0;
     background: #E89F00;
@@ -259,11 +258,19 @@
     cursor: pointer;
     transition: 0.5s;
     font-size: 18px;
-  }
+}
 
-  .contact-form-btn:hover {
+.contact-form-btn:hover {
     background: #1bb2e9;
-  }
+}
+
+.valid {
+    color: green;
+}
+
+.not-valid {
+    color: red;
+}
 
 
   /* About me */
@@ -595,7 +602,7 @@ section p {
     }
 
     .menu .current {
-        border: solid #E89F00;
+        border: solid darkorange;
     }
 
     .welcome-text p {
@@ -735,10 +742,56 @@ section p {
 
 
 
-  .valid {
-      color: green;
-  }
+  .carousel-slider ul, .carousel-slider p{
+    display: none;
+}
 
-  .not-valid {
-      color: red;
+
+.carousel-slide{
+    width: 100%;
+    display: none;
+}
+.carousel-slide:first-of-type{
+    display: block;
+}
+
+.carousel-slider{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    color: var(--var2);
+    font-weight: bold;
+    font-size: 3em;
+    display: block;
+
+    
+  }
+  .next{
+   right: 0;
+  }
+  
+  .text {
+    color: var(--var3);
+    font-size: 1.6em;
+    position: absolute;
+    bottom: 30%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: luckiest guy;
+    letter-spacing: 2px;
+    width: 80%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 15px;
+    padding: 5px 0;
+    padding-top: 10px;
   }
