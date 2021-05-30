@@ -1,5 +1,6 @@
 const url = "https://www.matskrane.no/wp-json/wp/v2/posts";
 const postHTML = document.querySelector(".posts")
+const loader = document.querySelector('.loading-spinner');
 
 async function getPosts() {
     try{
@@ -7,6 +8,7 @@ async function getPosts() {
         const getPosts = await response.json();
         listPosts(getPosts);
         console.log(getPosts);
+        loader.style.display = "none"
     }
    
     catch(error){
@@ -47,7 +49,7 @@ let viewMore = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedi
   fetch(viewMore)
     .then((response) => response.json())
     .then((data) => listPosts(data))
-    .catch((error) => loadPosts());
+    .catch((error) => loadPosts())
     console.log(error);
 };
 

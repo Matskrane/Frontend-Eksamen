@@ -35,6 +35,21 @@
     width: 100%;
     object-fit: cover;
   }
+
+  .loading-spinner {
+    background-color: #0e0e0e;
+    background-image: url(/images/Bean\ Eater-1s-200px.gif);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: center;
+    text-align: center;
+    background-size: 100px;
+}
+
+element.style {
+    display: none;
+}
   
 
   /* top area and image */

@@ -1,5 +1,6 @@
 const url = "https://www.matskrane.no/wp-json/wp/v2/posts";
 const latestPosts = document.querySelector(".posts");
+const loader = document.querySelector('.loading-spinner');
 
 async function makeSlider(){
   try{
@@ -7,6 +8,7 @@ async function makeSlider(){
       const getResults = await response.json();
       createHTML(getResults);
       console.log(getResults);
+      loader.style.display = "none"
   }
 
   catch(error){
