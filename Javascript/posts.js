@@ -38,13 +38,12 @@ function listPosts(posts){
 
 /* Next page or load more  */ 
 
-const ViewMoreBtn = document.querySelector('button');
+const viewMoreBtn = document.querySelector('button');
 let page = 1;
 
 const loadPosts = () => {
   page++;
 let viewMore = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedia&page=${page}`;
-  console.log(viewMore);
   fetch(viewMore)
     .then((response) => response.json())
     .then((data) => listPosts(data))
@@ -52,6 +51,6 @@ let viewMore = `https://matskrane.no/wp-json/wp/v2/posts/?_embed=wp:featuredmedi
     console.log(error);
 };
 
-ViewMoreBtn.addEventListener("click", loadPosts);
+viewMoreBtn.addEventListener("click", loadPosts)
 
 
