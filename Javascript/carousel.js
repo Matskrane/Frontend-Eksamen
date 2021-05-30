@@ -2,7 +2,7 @@ const url = "https://www.matskrane.no/wp-json/wp/v2/posts";
 const latestPosts = document.querySelector(".posts");
 const loader = document.querySelector('.loading-spinner');
 
-async function makeSlider(){
+async function targetSlider(){
   try{
       const response = await fetch(url);
       const getResults = await response.json();
@@ -16,7 +16,7 @@ async function makeSlider(){
   }
 };
 
-makeSlider();
+targetSlider();
 
 function createHTML(carouselSlider){
   carouselSlider.forEach(function(post){
@@ -25,7 +25,7 @@ function createHTML(carouselSlider){
       <div class="carousel-slide">
         <div class="video">
           <div class="background-card">
-          
+
             <div class="flex-sliders">
               <a class="prev" onclick="plusSlides(-1)">❮</a>
               <a class="next" onclick="plusSlides(1)">❯</a>
