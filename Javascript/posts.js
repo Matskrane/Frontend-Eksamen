@@ -24,14 +24,15 @@ function listPosts(posts){
         postHTML.innerHTML += `
         
         <div class="video">
-        <div class="background-card">
-        <a href="specificpost.html?id=${post.id}">
-        <h3>${post.title.rendered}</h3>
-        </a>
-        ${post.content.rendered}
-        <a class="button" href="specificpost.html?id=${post.id}">Go to post</a>
-        </div>      
+          <div class="background-card">
+            <a href="specificpost.html?id=${post.id}">
+              <h3>${post.title.rendered}</h3>
+            </a>
+              <div alt="YouTube Video" ${post.content.rendered} </div>
+             <a class="button" href="specificpost.html?id=${post.id}">Go to post</a>
+          </div>      
         </div>
+        
         `;
     })
 

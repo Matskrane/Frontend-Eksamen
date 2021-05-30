@@ -25,6 +25,7 @@ function createHTML(carouselSlider){
       <div class="carousel-slide">
         <div class="video">
           <div class="background-card">
+          
             <div class="flex-sliders">
               <a class="prev" onclick="plusSlides(-1)">❮</a>
               <a class="next" onclick="plusSlides(1)">❯</a>
@@ -48,24 +49,24 @@ function createHTML(carouselSlider){
 
 /*  Sliders */
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var videoNumber = 1;
+  showSliders(videoNumber);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+function plusSlides(number) {
+  showSliders(videoNumber += number);
 }
-function currentSlides(n) {
-    showSlides(slideIndex = n);
+function currentSlides(number) {
+  showSliders(videoNumber = number);
 }
 
-function showSlides(n) {
+function showSliders(number) {
     var i;
     var slides = document.querySelectorAll('.carousel-slide');
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    if (number > slides.length) {videoNumber = 1}
+    if (number < 1) {videoNumber = slides.length}
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   
-  slides[slideIndex-1].style.display = "block";
+  slides[videoNumber-1].style.display = "block";
 }

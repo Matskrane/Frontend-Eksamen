@@ -23,10 +23,10 @@ function displayProduct (data) {
       let html = `
 
         <div class="specific-video">
-        <div class="background-video">
-        <h2> ${data.title.rendered} </h2> 
-        <div class="video" ${data.content.rendered} </div>
-        </div>      
+          <div class="background-video">
+            <h2> ${data.title.rendered} </h2> 
+              <div alt="YouTube Video" class="video" ${data.content.rendered} </div>
+          </div>      
         </div>
           
       
