@@ -693,7 +693,7 @@ section p {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
-        gap: 10px;
+        gap: 20px;
         max-width: 300px;
     }
 
@@ -703,11 +703,12 @@ section p {
     }
 
     .menu a {
-        padding: 0 50px;
+        padding: 2px 40px;
     }
 
     .menu .current {
         border: solid darkorange;
+        padding-bottom: 7px;
     }
 
     .welcome-text p {
